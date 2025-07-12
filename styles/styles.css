@@ -1,13 +1,4 @@
 
-.my-font{
-  font-family: "TikTok Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight:400;
-  font-style: normal;
-  font-variation-settings:
-    "slnt" 0,
-    "wdth" 100;
-}
 
 body{
     background-color: #f5f8ff;
@@ -18,12 +9,7 @@ body{
 button{
     border: none;
 }
-button:hover{
-    color: rgb(255, 255, 255);
-    background-color: rgb(238, 123, 8);
-    transition: 0.5s;
-    box-shadow: 5px 5px 1px rgb(217, 213, 213);
-}
+
 /* primary class*/
 
 .btn-primary{
@@ -220,7 +206,7 @@ nav{
     margin: 10px;
     color: gray;
 }
-.focus-btn{
+.get-started{
     
     text-align: center;
     padding: 10px 24px;
@@ -261,7 +247,7 @@ nav{
     width: 255px;
     border-radius: 5px;
 }
-.form-btn{
+.get-intouch{
     height: 35px;
     width: 255px;
     margin-top: 10px;
@@ -274,7 +260,7 @@ textarea{
 }
 /*-------foooter section*/
 
-.foot-main{
+.footer-main{
     display: flex;
     justify-content: center;
 }
@@ -283,14 +269,14 @@ textarea{
     text-align: center;
     background-color: white;
     width: 100%;
-    padding-bottom: 50px;
     padding-top: 15px;
+    padding-bottom: 50px;
 }
-.ft-main h1{
+.footer-head h1{
     margin: 0px;
     padding: 20px;
 }
-.ft-main p{
+.footer-head p{
     margin: 10px auto;
     font-size: 10px;
     color: gray;
@@ -300,8 +286,4 @@ textarea{
     color: rgb(151, 146, 146);
     font-size: 12px;
     margin-left: 20px;
-}
-.link a:hover{
-    color: orange;
-    transition: 0.5s;
 }
