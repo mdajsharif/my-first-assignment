@@ -26,7 +26,7 @@ button:hover{
 }
 /* primary class*/
 
-.primary-btn{
+.btn-primary{
     background-color: #4E47FF;
     color: white;
     border-radius: 5px;
@@ -42,7 +42,7 @@ nav{
     display: flex;
     justify-content: space-between;
 }
-.btn1{
+.sign-up{
     padding: 10px 20px;
     height: 40px;
     margin: 20px 40px;
@@ -72,7 +72,7 @@ nav{
     display: flex;
     justify-content: center;
 }
-.btn2{
+.stay-focused{
     padding: 10px 15px;
     display: block;
 }
@@ -95,7 +95,7 @@ nav{
     font-size: 14 px;
     color:gray ;
 }
-.btn3{
+.Launch{
     padding: 10px 20px;
 }
 .ac-img{
