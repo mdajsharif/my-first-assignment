@@ -6,6 +6,11 @@ body{
     font-family: sans-serif;
     font-weight: 400;
 }
+button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 128, 0, 0.992);
+    transition: 0.5s;
+}
 button{
     border: none;
 }
